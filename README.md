@@ -1,5 +1,4 @@
-TermoHelp - Gabriel Mesquita
-Programa de resolução do jogo: https://term.ooo/
+TermoHelp: programa de resolução do jogo: https://term.ooo/
 
 Descrição de cada arquivo:
 
