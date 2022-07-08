@@ -2,7 +2,7 @@ y_list = []
 g_list = []
 y_ct = 0
 
-print("Recomendação de palavra: Areio\nLegenda do resultado:\n0 - Erro\n1 - Posição Incorreta\n2 - Acerto")
+print("\nRecomendação de abertura: Areio\n\nLegenda do resultado:\n0 - Erro\n1 - Posição Incorreta\n2 - Acerto\n")
 
 while True:
 
@@ -49,8 +49,9 @@ while True:
 
                     for palavra in palavras:
                         
-                        #Se não tiver a letra na palavra nessa posição, deletar                                                                                               
-                        if palavra.find(letra[i]) == i:
+                        #Se tiver a palavra tiver a letra nessa posição, 
+                        #Ou ter a letra dua ou mais vezes, manter na lista.                                                                                               
+                        if palavra.find(letra[i]) == i or palavra.count(letra[i]) > 1:
                             w.write(palavra)
 
     #Se a palavra tiver todas as letras amarelas, sera mantida
@@ -89,3 +90,4 @@ while True:
         
     y_list = []
     y_ct = 0
+
