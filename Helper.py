@@ -1,4 +1,5 @@
 y_list = []
+g_list = []
 y_ct = 0
 
 print("Legenda do resultado:\n0 - Erro\n1 - Posição Incorreta\n2 - Acerto")
@@ -23,7 +24,7 @@ while True:
 
                         #Se a palavra não tiver a letra, 
                         #Ou ter a letra duas ou mais vezes, 
-                        #Ou a letra já ter recebido a tag amarela, manter na lista
+                        #Ou a letra já ter recebido a tag amarela ou verde, manter na lista
                         if palavra.find(letra[i]) == -1 or palavra.count(letra[i]) > 1 or letra[i] in y_list:
                             w.write(palavra)
                 
@@ -43,6 +44,7 @@ while True:
             #Verde - Acerto
             if res[i] == '2':
                 
+                g_list.append(letra[i])
                 with open('palavras.txt', 'w') as w:
 
                     for palavra in palavras:
