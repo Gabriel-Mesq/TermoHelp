@@ -93,6 +93,7 @@ while True:
                             w.write(palavra)  
             
         y_list = []
+        g_list = []
         y_ct = 0
 
     else:  
