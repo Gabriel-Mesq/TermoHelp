@@ -51,8 +51,8 @@ ancia
 andar
 anelo
 anexo
-ânimo
-ânsia
+animo
+ansia
 antal
 antes
 antro
@@ -8487,7 +8487,7 @@ urdus
 ubins
 uafes
 uaxua
-voilà
+voila
 viaje
 volto
 veraz
@@ -8872,3 +8872,4 @@ zacos
 zizie
 zoroa
 zoros
+areas
